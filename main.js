@@ -12,7 +12,21 @@ var calcBtn = document.querySelector('#calculateBtn');
 
 var answerField = document.querySelector('#answer');
 
+//mulitplication part
 
+
+function mulitplication (){
+  var firstNum = Number(inputOne.value);
+  var secondNum = Number (inputTwo.value);
+  var product = firstNum * secondNum;
+
+  answerField.innerHTML = product;
+
+  };
+
+  multipBtn.addEventListener('click', mulitplication);
+
+ //addition part
 
 function addition (){
   var firstNum = Number(inputOne.value);
@@ -24,7 +38,7 @@ function addition (){
   };
 
 
-calculateBtn.addEventListener('click', addition);
+addBtn.addEventListener('click', addition);
 
 
 
