@@ -40,7 +40,29 @@ function addition (){
 
 addBtn.addEventListener('click', addition);
 
+//division part
+
+function divide (){
+  var firstNum = Number(inputOne.value);
+  var secondNum = Number (inputTwo.value);
+  var quotient = firstNum / secondNum;
+
+  answerField.innerHTML = quotient;
+
+  };
+
+  divBtn.addEventListener('click', divide);
 
 
+//subtraction part
 
+  function subtraction (){
+    var firstNum =Number(inputOne.value);
+    var secondNum = Number (inputTwo.value);
+    var difference = firstNum - secondNum;
 
+    answerField.innerHTML = difference;
+
+  }
+
+  subBtn.addEventListener('click', subtraction);
