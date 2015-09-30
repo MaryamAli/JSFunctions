@@ -1,0 +1,11 @@
+body{
+  
+ border: 5px dotted #f4f4f0;
+ display: inline-block;
+ background-color: #3B653D;
+ text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

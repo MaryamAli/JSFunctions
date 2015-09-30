@@ -3,22 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <title>Calculate!</title>
+  <link rel="stylesheet" type="text.css" href="main.css">
 </head>
-<body>
-  <h3>Let's Do Some Math!</h3>
+  <body class=main>
+    <div class="header">
+      <h3>Let's Do Some Math!</h3>
+    </div>
+    
+    <input type="text" id="num_one" />
+    <br /><br />
+    <input type="text" id="num_two" />
+    <br /><br />
 
-<input type="text" id="num_one" />
-<br /><br />
-<input type="text" id="num_two" />
-<br /><br />
-<input type="submit" value="Multiply" id="multipBtn" />
-<input type="submit" value="Add" id="addBtn" />
-<input type="submit" value="Divide" id="divBtn" />
-<input type="submit" value="Subtract" id="subBtn" />
-<div class="answer">
-  <br />
-  Answer: <span id="answer"></span>
-</div>
-  <script src="main.js"></script>
-</body>
+    
+      <input type="submit" value="Multiply" id="multipBtn" />
+      <input type="submit" value="Add" id="addBtn" />
+      <input type="submit" value="Divide" id="divBtn" />
+      <input type="submit" value="Subtract" id="subBtn" />
+    
+
+    <div class="answer">
+      <br />
+      Answer: <span id="answer"></span>
+    </div>
+   
+      <script src="main.js"></script>
+  </body>
 </html>
